@@ -8,7 +8,5 @@ app.config(function($routeProvider) {
             templateUrl: "partials/guide-list.html",
             controller: 'bookCtrl'
         }).
-        otherwise("/items/list");
-
-
+        otherwise("/books/list");
 });
